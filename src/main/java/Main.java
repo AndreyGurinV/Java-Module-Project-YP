@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
         int persons = -1;
         Scanner scaner = new Scanner(System.in);
         while (persons <= 1) {
