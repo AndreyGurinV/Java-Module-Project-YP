@@ -20,8 +20,7 @@ public class Main {
         System.out.println("Количество человек для расчета " + persons);
 
         Calculator calculator = new Calculator();
-        while (true)
-        {
+        while (true) {
             System.out.println("Введите название товара (для завершения введите \"Завершить\"):");
             String name = scaner.next();
             if (name.equalsIgnoreCase("Завершить")) {
