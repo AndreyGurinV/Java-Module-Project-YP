@@ -41,9 +41,9 @@ public class Main {
                 double price = scanerPrice.nextDouble();
                 if (price > 0) {
                     return price;
-                }
-                else
+                } else {
                     System.out.println("Стоимость не может быть меньше или равна нулю");
+                }
             }else {
                 System.out.println("Формат стоимости должен быть: рубли.копейки");
                 scanerPrice.next();
