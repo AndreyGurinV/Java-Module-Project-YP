@@ -12,8 +12,7 @@ public class Main {
                 if (persons <= 1){
                     System.out.println("Введено некорректное значение (должно быть больше 1)");
                 }
-            } else
-            {
+            } else {
                 System.out.println("Введено некорректное значение (должно быть число)");
                 scaner.next();
             }
